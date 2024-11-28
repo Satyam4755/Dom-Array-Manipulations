@@ -144,6 +144,7 @@
 
                     // for ensuring that no name should repeated
                     names.splice(NameShowed, 1)
+                    //showing the user names 
                     if (names[i] in maindabba.children) {
                         break
                     }
@@ -153,6 +154,7 @@
                     }
                 }
             }
+                //doubling the money of the wealth
             else if (segment.textContent === "Double Money") {
                 let selWealth = document.querySelectorAll("h5")
                 selWealth.forEach(function (setwealth, index) {
@@ -164,6 +166,7 @@
                 })
 
             }
+                // showing only the millionaires in the lisr
             else if (segment.textContent === "Show only Millionaires") {
                 let selWealth = document.querySelectorAll('h5')
                 let selName = document.querySelectorAll('h4')
